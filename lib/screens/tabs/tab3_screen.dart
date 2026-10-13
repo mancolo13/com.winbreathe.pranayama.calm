@@ -16,7 +16,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('WinBreathe • Pacer')),
+      appBar: AppBar(title: const Text('Win • Pacer')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
