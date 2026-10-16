@@ -23,7 +23,7 @@ class Tab4Screen extends StatelessWidget {
                   child: const Icon(Icons.person, size: 40, color: AppTheme.primaryColor),
                 ),
                 const SizedBox(height: 12),
-                const Text('Yogi #9931', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                const Text('Yogi #9931', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), maxLines: 1, overflow: TextOverflow.ellipsis),
                 const Text('Tier: Prana Circle: Active', style: TextStyle(color: AppTheme.secondaryColor, fontSize: 13)),
               ],
             ),
