@@ -22,10 +22,10 @@ class _Tab2ScreenState extends State<Tab2Screen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              _chip('All', 0),
-              _chip('Active', 1),
-              _chip('Hot', 2),
-              _chip('Saved', 3),
+              _chip('Box 4-4-4-4', 0),
+              _chip('4-7-8 Calm', 1),
+              _chip('Kapalabhati', 2),
+              _chip('Resonant', 3),
             ],
           ),
           const SizedBox(height: 16),
@@ -47,7 +47,7 @@ class _Tab2ScreenState extends State<Tab2Screen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Patterns Record #${i + 201}', style: const TextStyle(fontWeight: FontWeight.bold)),
+                      Text(const ['Morning Awakening Breath', 'Pre-Meeting Reset 3m', 'Anxiety Dissolve Flow', 'Vagus Nerve Stimulator', 'Bedtime Deep Melatonin'][i % 5], style: const TextStyle(fontWeight: FontWeight.bold)),
                       Text('Stage ${i + 1} • Verified status', style: const TextStyle(fontSize: 12, color: Colors.white60)),
                     ],
                   ),
